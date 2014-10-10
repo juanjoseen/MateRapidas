@@ -1,13 +1,13 @@
 //
-//  MyScene.h
+//  Menu.h
 //  MateRapidas
 //
-
+//  Created by Juan on 31/07/14.
 //  Copyright (c) 2014 AxkanSoftware. All rights reserved.
 //
 
-#import <SpriteKit/SpriteKit.h>
+#import "Escena.h"
 
-@interface MyScene : SKScene
+@interface Menu : Escena
 
 @end

@@ -7,25 +7,27 @@
 //
 
 #import "ViewController.h"
-#import "MyScene.h"
+#import "LoadingScene.h"
 
-@implementation ViewController
+@implementation ViewController{
+    LoadingScene *loading;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 
     // Configure the view.
-    SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
+    if (!loading){
+        SKView * skView = (SKView *)self.view;
+        skView.showsFPS = NO;
+        skView.showsNodeCount = NO;
+        loading = [[LoadingScene alloc] initWithSize:skView.bounds.size];
+        
+        // Present the scene.
+        [skView presentScene:loading];
+    }
     
-    // Create and configure the scene.
-    SKScene * scene = [MyScene sceneWithSize:skView.bounds.size];
-    scene.scaleMode = SKSceneScaleModeAspectFill;
-    
-    // Present the scene.
-    [skView presentScene:scene];
 }
 
 - (BOOL)shouldAutorotate

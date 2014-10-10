@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  MateRapidas
+
+  Created by Juan on 11/08/14.
+  Copyright (c) 2014 AxkanSoftware. All rights reserved.
+*/
+"cargando" = "Loading";
+"comienza" = "Start";
+"cuanto es" = "How much is... ?";
+"segundos" = "Seconds";
+"puntos" = "Points";
+"final_msg" = "You got";
+"home" = "Home";

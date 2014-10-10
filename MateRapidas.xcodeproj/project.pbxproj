@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC04D20A198B073300A7702B /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AC04D209198B073300A7702B /* GameScene.m */; };
 		AC33A91F198ADDF000FB831A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC33A91E198ADDF000FB831A /* Foundation.framework */; };
 		AC33A921198ADDF000FB831A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC33A920198ADDF000FB831A /* CoreGraphics.framework */; };
 		AC33A923198ADDF000FB831A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC33A922198ADDF000FB831A /* UIKit.framework */; };
@@ -16,14 +17,19 @@
 		AC33A931198ADDF000FB831A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC33A930198ADDF000FB831A /* AppDelegate.m */; };
 		AC33A934198ADDF000FB831A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC33A932198ADDF000FB831A /* Main.storyboard */; };
 		AC33A937198ADDF000FB831A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC33A936198ADDF000FB831A /* ViewController.m */; };
-		AC33A93A198ADDF000FB831A /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AC33A939198ADDF000FB831A /* MyScene.m */; };
-		AC33A93C198ADDF100FB831A /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = AC33A93B198ADDF100FB831A /* Spaceship.png */; };
 		AC33A93E198ADDF100FB831A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC33A93D198ADDF100FB831A /* Images.xcassets */; };
 		AC33A945198ADDF100FB831A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC33A944198ADDF100FB831A /* XCTest.framework */; };
 		AC33A946198ADDF100FB831A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC33A91E198ADDF000FB831A /* Foundation.framework */; };
 		AC33A947198ADDF100FB831A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC33A922198ADDF000FB831A /* UIKit.framework */; };
 		AC33A94F198ADDF100FB831A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC33A94D198ADDF100FB831A /* InfoPlist.strings */; };
 		AC33A951198ADDF100FB831A /* MateRapidasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC33A950198ADDF100FB831A /* MateRapidasTests.m */; };
+		AC33A95C198ADE4D00FB831A /* LoadingScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AC33A95B198ADE4D00FB831A /* LoadingScene.m */; };
+		AC33A95F198ADEBE00FB831A /* Escena.m in Sources */ = {isa = PBXBuildFile; fileRef = AC33A95E198ADEBE00FB831A /* Escena.m */; };
+		AC33A962198AE27400FB831A /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = AC33A961198AE27400FB831A /* Menu.m */; };
+		AC33A966198AEBD300FB831A /* Boton.m in Sources */ = {isa = PBXBuildFile; fileRef = AC33A965198AEBD300FB831A /* Boton.m */; };
+		AC80674B198EA64A0082E882 /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC80674A198EA64A0082E882 /* ding.mp3 */; };
+		ACCC409A1999524C0040C489 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCC40991999524C0040C489 /* GameOverScene.m */; };
+		ACCC40A5199955E20040C489 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACCC40A7199955E20040C489 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC04D208198B073300A7702B /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		AC04D209198B073300A7702B /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
 		AC33A91B198ADDF000FB831A /* MateRapidas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MateRapidas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC33A91E198ADDF000FB831A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AC33A920198ADDF000FB831A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,18 +56,28 @@
 		AC33A92E198ADDF000FB831A /* MateRapidas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MateRapidas-Prefix.pch"; sourceTree = "<group>"; };
 		AC33A92F198ADDF000FB831A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AC33A930198ADDF000FB831A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AC33A933198ADDF000FB831A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC33A935198ADDF000FB831A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AC33A936198ADDF000FB831A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AC33A938198ADDF000FB831A /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
-		AC33A939198ADDF000FB831A /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		AC33A93B198ADDF100FB831A /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		AC33A93D198ADDF100FB831A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AC33A943198ADDF100FB831A /* MateRapidasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MateRapidasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC33A944198ADDF100FB831A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AC33A94C198ADDF100FB831A /* MateRapidasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MateRapidasTests-Info.plist"; sourceTree = "<group>"; };
 		AC33A94E198ADDF100FB831A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC33A950198ADDF100FB831A /* MateRapidasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MateRapidasTests.m; sourceTree = "<group>"; };
+		AC33A95A198ADE4D00FB831A /* LoadingScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingScene.h; sourceTree = "<group>"; };
+		AC33A95B198ADE4D00FB831A /* LoadingScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingScene.m; sourceTree = "<group>"; };
+		AC33A95D198ADEBE00FB831A /* Escena.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Escena.h; sourceTree = "<group>"; };
+		AC33A95E198ADEBE00FB831A /* Escena.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Escena.m; sourceTree = "<group>"; };
+		AC33A960198AE27400FB831A /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		AC33A961198AE27400FB831A /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		AC33A964198AEBD300FB831A /* Boton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boton.h; sourceTree = "<group>"; };
+		AC33A965198AEBD300FB831A /* Boton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boton.m; sourceTree = "<group>"; };
+		AC80674A198EA64A0082E882 /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
+		ACCC40981999524C0040C489 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		ACCC40991999524C0040C489 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+		ACCC40A1199954ED0040C489 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACCC40A6199955E20040C489 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ACCC40A8199956010040C489 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +108,7 @@
 		AC33A912198ADDF000FB831A = {
 			isa = PBXGroup;
 			children = (
+				ACCC40A7199955E20040C489 /* Localizable.strings */,
 				AC33A926198ADDF000FB831A /* MateRapidas */,
 				AC33A94A198ADDF100FB831A /* MateRapidasTests */,
 				AC33A91D198ADDF000FB831A /* Frameworks */,
@@ -126,11 +145,11 @@
 				AC33A932198ADDF000FB831A /* Main.storyboard */,
 				AC33A935198ADDF000FB831A /* ViewController.h */,
 				AC33A936198ADDF000FB831A /* ViewController.m */,
-				AC33A938198ADDF000FB831A /* MyScene.h */,
-				AC33A939198ADDF000FB831A /* MyScene.m */,
-				AC33A93B198ADDF100FB831A /* Spaceship.png */,
 				AC33A93D198ADDF100FB831A /* Images.xcassets */,
 				AC33A927198ADDF000FB831A /* Supporting Files */,
+				AC33A963198AEBA300FB831A /* Escenas */,
+				AC33A964198AEBD300FB831A /* Boton.h */,
+				AC33A965198AEBD300FB831A /* Boton.m */,
 			);
 			path = MateRapidas;
 			sourceTree = "<group>";
@@ -138,6 +157,7 @@
 		AC33A927198ADDF000FB831A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AC80674A198EA64A0082E882 /* ding.mp3 */,
 				AC33A928198ADDF000FB831A /* MateRapidas-Info.plist */,
 				AC33A929198ADDF000FB831A /* InfoPlist.strings */,
 				AC33A92C198ADDF000FB831A /* main.m */,
@@ -162,6 +182,23 @@
 				AC33A94D198ADDF100FB831A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC33A963198AEBA300FB831A /* Escenas */ = {
+			isa = PBXGroup;
+			children = (
+				AC33A95A198ADE4D00FB831A /* LoadingScene.h */,
+				AC33A95B198ADE4D00FB831A /* LoadingScene.m */,
+				AC33A95D198ADEBE00FB831A /* Escena.h */,
+				AC33A95E198ADEBE00FB831A /* Escena.m */,
+				AC33A960198AE27400FB831A /* Menu.h */,
+				AC33A961198AE27400FB831A /* Menu.m */,
+				AC04D208198B073300A7702B /* GameScene.h */,
+				AC04D209198B073300A7702B /* GameScene.m */,
+				ACCC40981999524C0040C489 /* GameOverScene.h */,
+				ACCC40991999524C0040C489 /* GameOverScene.m */,
+			);
+			name = Escenas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +260,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = AC33A912198ADDF000FB831A;
 			productRefGroup = AC33A91C198ADDF000FB831A /* Products */;
@@ -240,9 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCC40A5199955E20040C489 /* Localizable.strings in Resources */,
+				AC80674B198EA64A0082E882 /* ding.mp3 in Resources */,
 				AC33A92B198ADDF000FB831A /* InfoPlist.strings in Resources */,
 				AC33A93E198ADDF100FB831A /* Images.xcassets in Resources */,
-				AC33A93C198ADDF100FB831A /* Spaceship.png in Resources */,
 				AC33A934198ADDF000FB831A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC33A93A198ADDF000FB831A /* MyScene.m in Sources */,
+				AC33A95F198ADEBE00FB831A /* Escena.m in Sources */,
+				ACCC409A1999524C0040C489 /* GameOverScene.m in Sources */,
+				AC33A962198AE27400FB831A /* Menu.m in Sources */,
 				AC33A937198ADDF000FB831A /* ViewController.m in Sources */,
 				AC33A931198ADDF000FB831A /* AppDelegate.m in Sources */,
+				AC33A95C198ADE4D00FB831A /* LoadingScene.m in Sources */,
+				AC33A966198AEBD300FB831A /* Boton.m in Sources */,
+				AC04D20A198B073300A7702B /* GameScene.m in Sources */,
 				AC33A92D198ADDF000FB831A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +343,7 @@
 		AC33A932198ADDF000FB831A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AC33A933198ADDF000FB831A /* Base */,
+				ACCC40A1199954ED0040C489 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -310,6 +354,15 @@
 				AC33A94E198ADDF100FB831A /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACCC40A7199955E20040C489 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACCC40A6199955E20040C489 /* en */,
+				ACCC40A8199956010040C489 /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -347,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -379,7 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -393,6 +446,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MateRapidas/MateRapidas-Prefix.pch";
 				INFOPLIST_FILE = "MateRapidas/MateRapidas-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -407,6 +461,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MateRapidas/MateRapidas-Prefix.pch";
 				INFOPLIST_FILE = "MateRapidas/MateRapidas-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -472,6 +527,7 @@
 				AC33A956198ADDF100FB831A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC33A957198ADDF100FB831A /* Build configuration list for PBXNativeTarget "MateRapidasTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +536,7 @@
 				AC33A959198ADDF100FB831A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
